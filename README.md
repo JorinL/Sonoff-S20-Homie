@@ -1,6 +1,7 @@
-Firmware for the SonOff S20 (ESP8266) with Homie 3.0.1 (develop-3)
+Firmware for the SonOff S20 (ESP8266) with Homie 3.0.1(develop-3) and OneButton 
 
 Homie: https://github.com/homieiot/homie-esp8266/tree/develop-v3
+OneButton: https://github.com/mathertel/OneButton
 
 
 A Click switches the relay on/off
