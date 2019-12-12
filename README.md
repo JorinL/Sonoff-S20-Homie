@@ -1,4 +1,4 @@
-Firmware for the SonOff S20 (ESP8266) with Homie (develop-3)
+Firmware for the SonOff S20 (ESP8266) with Homie 3.0.1 (develop-3)
 
 Homie: https://github.com/homieiot/homie-esp8266
 
