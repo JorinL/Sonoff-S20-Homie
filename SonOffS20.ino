@@ -126,6 +126,7 @@ void setup() {
   button.setClickTicks(500);
   button.setPressTicks(10000);
   relayNode.advertise("on").setName("on").setDatatype("boolean").settable(relayHandler);
+  Homie.disableResetTrigger();
   Homie.setup();
   ArduinoOTA.setHostname(Homie.getConfiguration().deviceId);
   ArduinoOTA.begin();
