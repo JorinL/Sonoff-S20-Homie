@@ -102,7 +102,7 @@ void fixWiFi() {
         }
       }
     }
-    else if (problemCount != 0 && Homie.getMqttClient().connected() || WiFi.status() == 3) {
+    else if (problemCount != 0 && (Homie.getMqttClient().connected() || WiFi.status() == 3)) {
       problemCount = 0;
       ArduinoOTA.setHostname(Homie.getConfiguration().deviceId);
       ArduinoOTA.begin();
